@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fade Scroll Effect</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+}
+
+.fade-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    scroll-snap-align: start;
+    max-width: 100%;
+    height: auto;
+}
+</style>
+<body>
+
+<div class="image-container">
+    <img id="image1" class="fade-image" src="cropped-cropped-tamra-3.png" alt="Image 1">
+    <img id="image2" class="fade-image" src="cropped-cropped-tamra-3.png" alt="Image 2">
+    <!-- Add more images as needed -->
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll(".fade-image");
+
+        function fadeInImages() {
+            images.forEach(image => {
+                const imageRect = image.getBoundingClientRect();
+
+                if (imageRect.left >= 0 && imageRect.right <= window.innerWidth) {
+                    image.style.opacity = 1;
+                } else {
+                    image.style.opacity = 0;
+                }
+            });
+        }
+
+        // Call the function on page load and scroll
+        fadeInImages();
+        document.addEventListener("scroll", fadeInImages);
+    });
+
+</script>
+</body>
+</html>
