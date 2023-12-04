@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /* header */
 header{
     box-sizing: border-box;
@@ -86,4 +89,103 @@ nav .container .menu .links .navbarnav .navItem .active{
     border-bottom: 2px solid #eecf23;
 }
 
+nav .container .icon {
+    cursor: pointer;;
+}
+
+nav .container .icon span{
+    background-color: #eecf23;
+    margin-bottom: 4px;
+    margin-right: 25px;
+    height: 2px;
+    display: none; /* Add this line to ensure the spans behave as block elements */
+}
+
+.show-mobile-menu{
+    visibility: visible;
+    height: auto;
+    line-height: normal;
+    font-size: 15px;
+    width: auto;
+    margin-top: 0px;
+    float: right;
+}
+
+nav .container .mobile-menu{
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0px;
+    width: 0px;
+    padding: 0px;
+    margin: 0;
+}
+
+nav .container .show-mobile-menu .sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px;
+}
+
+nav .container .show-mobile-menu .sidenav .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    margin-left: 0;
+    color: #f7775e;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+}
+
+nav .container .show-mobile-menu .sidenav ul{
+    float: left;
+    margin: 0;
+    padding: 0 0 0 15%;
+    list-style-type: none;
+    width: 100%;
+}
+
+nav .container .show-mobile-menu .sidenav ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+nav .container .show-mobile-menu .sidenav ul li a{
+    position: relative;
+    display: block;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 35px;
+    color: #565050;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: .23em;
+    text-decoration: none;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    nav .container .icon span{
+        display: block;
+        width: 24px;
+    }
+    nav .container .menu{
+        display: none;
+    }
+}
 /* end header */
