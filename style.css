@@ -69,6 +69,7 @@ nav .container .menu .links .navbarnav .navItem .navLink{
     text-transform: uppercase;
     text-decoration: none;
 }
+
 nav .container .menu .links .navbarnav .publish{
     border: 1px solid #eecf23;
     -moz-border-radius: 3px;
@@ -78,8 +79,13 @@ nav .container .menu .links .navbarnav .publish{
     margin-top: -1px;
     margin-left: 15px;
 }
+nav .container .menu .links .navbarnav .publish .navLink:hover{
+    color: #eecf23;
+    cursor: pointer;
+}
 
-nav .container .menu .links .navbarnav .navItem .active{
+nav .container .menu .links .navbarnav .navItem .active ,
+nav .container .menu .links .navbarnav .navItem .page:hover{
     color: #eecf23;
     -webkit-transition: color .2s ease-out;
     -moz-transition: color .2s ease-out;
@@ -87,6 +93,7 @@ nav .container .menu .links .navbarnav .navItem .active{
     text-decoration: none;
     outline: none;
     border-bottom: 2px solid #eecf23;
+    cursor: pointer;
 }
 
 nav .container .icon {
@@ -97,7 +104,7 @@ nav .container .icon span{
     background-color: #eecf23;
     margin-bottom: 4px;
     margin-right: 25px;
-    height: 2px;
+    height: 3px;
     display: none; /* Add this line to ensure the spans behave as block elements */
 }
 
@@ -179,6 +186,9 @@ nav .container .show-mobile-menu .sidenav ul li a{
     text-decoration: none;
     outline: none;
 }
+nav .container .show-mobile-menu .sidenav ul li .active{
+    color: #f7775e;
+}
 
 @media (max-width: 768px) {
     nav .container .icon span{
@@ -190,3 +200,8 @@ nav .container .show-mobile-menu .sidenav ul li a{
     }
 }
 /* end header */
+
+/* start home section game section */
+
+
+/* end home section game section */
