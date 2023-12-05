@@ -90,7 +90,7 @@ nav .container .menu .links .navbarnav .navItem .active{
 }
 
 nav .container .icon {
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 nav .container .icon span{
@@ -144,6 +144,7 @@ nav .container .show-mobile-menu .sidenav .closebtn{
     color: #f7775e;
     font-weight: 500;
     font-family: 'Montserrat',sans-serif;
+    cursor: pointer;
 }
 
 nav .container .show-mobile-menu .sidenav ul{
