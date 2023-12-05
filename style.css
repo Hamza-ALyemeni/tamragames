@@ -203,5 +203,252 @@ nav .container .show-mobile-menu .sidenav ul li .active{
 
 /* start home section game section */
 
+.home_section_gamesicon {
+    float: left;
+    margin: 0 0 0 0;
+    padding: 40px 0 40px 0;
+    width: 100%;
+    clear: both;
+}
+.game-icon-1{
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 36%;
+    max-width: 100%;
+}
 
+.game-icon-s-1{
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 11%;
+    max-width: 100%;
+}
+
+.game-icon-s-2{
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 11%;
+    max-width: 100%;
+}
+
+.game-icon-s-3{
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 11%;
+    max-width: 100%;
+}
+
+.game-icon-s-4{
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 11%;
+    max-width: 100%;
+}
+
+.game-icon-s-5 {
+    float: left;
+    margin: 0 0px 0 0;
+    padding: 0 0 0 0;
+    width: 11%;
+    max-width: 100%;
+}
+
+.game-icon-2{
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    width: 62%;
+    max-width: 100%;
+}
+.game-icon-3{
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 0 0 0 0;
+    width: 29%;
+    max-width: 100%;
+}
+.game-icon-4{
+    float: left;
+    margin: 20px 20px 0 0;
+    padding: 0 0 0 0;
+    width: 38%;
+    max-width: 100%;
+}
+.game-icon-5{
+    float: left;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+    width: 29%;
+    max-width: 100%;
+}
+
+@media   (min-width: 320px) and (max-width: 480px){
+    .game-icon-1{
+        margin: 0 0px 0 0;
+        width: 100%;
+    }
+    .game-icon-s-1 {
+        margin: 10px 10px 0 0;
+        width: 30%;
+    }
+    .game-icon-s-2 {
+        margin: 10px 10px 0 0;
+        width: 30%;
+    }
+    .game-icon-s-3{
+        margin: 10px 10px 0 0;
+        width: 30%;
+    }
+    .game-icon-s-4{
+        margin: 10px 10px 0 0;
+        width: 30%;
+    }
+    .game-icon-s-5{
+        margin: 10px 10px 0 0;
+        width: 30%;
+    }
+    .game-icon-2,
+    .game-icon-3,
+    .game-icon-4,
+    .game-icon-5{
+       width: 100%;
+    }
+}
 /* end home section game section */
+/* home section publish  */
+
+.home_section_publish{
+	float: left;
+	margin: 0 0 0 0;
+	padding: 50px 0 50px 0;
+	width: 100%;
+	background-color: #f9f9f9;
+ }
+
+.home_section_publish h3{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    float: left;
+	margin: 0 0 0 0;
+	padding: 0px 0 0px 0;
+	width: 100%;
+	color: #000000;
+	font-size: 42px;
+}
+.home_section_publish h3 span{
+	margin: 0 0 0 0;
+	padding: 0px 0 0px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+	color: #000000;
+	font-size: 42px;
+}
+.home_section_publish h3 span.bg{
+	background-image: url(span_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	padding: 0 20px;
+}
+.home_section_publish p{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    float: left;
+	margin: 0 0 40px 0;
+	padding: 0px 0 0px 0;
+	width: 100%;
+	color: #000000;
+	font-size: 14px;
+}
+
+.home_section_publish img{
+    float: left;
+    max-width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    z-index: 6;
+}
+.home_section_publish a.learn_more {
+    background-color: #ffd200;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #191919;
+    text-decoration: none;
+    outline: none;
+    margin: -20% 15% 0 0;
+    padding: 7px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    width: auto;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+.home_section_publish a.learn_more:hover{
+	background-color: #191919;
+	color: #ffd200;
+}
+
+.services_publish{
+	float: left;
+	margin: 0px 0 30px 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	text-align: left;
+}
+.services_publish img{
+	float: left;
+	margin: 0 20px 0px 0;
+}
+.services_publish h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+	font-size: 21px;
+	color: #000000;
+	margin: 0 0 10px 0;
+	padding:  0 0 0 0;
+	float: none;
+}
+.services_publish p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: contents;
+}
+
+@media (max-width: 768px){
+    .home_section_publish h3,
+    .home_section_publish p ,
+    .home_section_publish img {
+        padding: 0px 0 0px 6%;
+    }
+    .home_section_publish a.learn_more {
+        margin: 50px 0 40px 6%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .home_section_publish h3 span {
+        font-size: 34px;
+    }
+}
+
+/* end home section publish */
+
+/* start home our journey */
+
+/* end home our journey */
+
