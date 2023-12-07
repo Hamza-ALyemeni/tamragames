@@ -1,8 +1,288 @@
 *{
     box-sizing: border-box;
 }
+/* Start Game District Header */
+
+html, body{
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: auto;
+	background-color: #f9f9f9;
+}
+.clr{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+img{
+	border: none;
+	max-width: 100%;
+}
+.container {
+    width: 100%;
+	max-width: 1230px;
+	overflow: hidden;
+}
+/* Header */  
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #181818;
+    position: relative;
+    z-index: 9999;
+}
+.logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 111px;
+}
+.logo a{
+	text-decoration: none;
+	outline: none;
+}
+
+
+.home_section_gamesicon{
+	float: left;
+	margin: 0 0 0 0;
+	padding: 40px 0 40px 0;
+	width: 100%;
+	clear: both;
+ }
+.home_section_gamesicon .game_icon_1{
+	float: left;
+margin: 0 20px 0 0;
+padding: 0 0 0 0;
+width: 36% ;
+max-width:100% ;
+}
+.home_section_gamesicon .game_icon_2{
+float: left;
+margin: 10px 0 0 0;
+padding: 0 0 0 0;
+width: 62% ;
+max-width:100% ;
+}
+.home_section_gamesicon .game_icon_3{
+	    float: left;
+    margin: 20px 20px 0 0;
+    padding: 0 0 0 0;
+    width: 29%;
+    max-width:100% ;
+}
+.home_section_gamesicon .game_icon_4{
+	float: left;
+margin: 20px 20px 0 0;
+padding: 0 0 0 0;
+width: 38% ;
+max-width:100% ;
+}
+.home_section_gamesicon .game_icon_5{
+	 float: left;
+margin: 20px 0 0 0;
+padding: 0 0 0 0;
+width: 29%;
+max-width:100% ;
+}
+.home_section_gamesicon .game-icon-s-1{
+	float: left;
+margin: 0 20px 0 0;
+padding: 0 0 0 0;
+width: 11%;
+max-width: 100%;
+}
+.home_section_gamesicon .game-icon-s-2{
+	    float: left;
+    margin: 0 0px 0 0;
+    padding: 0 0 0 0;
+    width:11% ;
+    max-width: 100%;
+}
+
+/* Menu */  
+.main_menu{
+    float:right;
+    margin:9px 0 0;
+    padding:0;
+    width:auto
+}
+.main_menu ul{
+    list-style:none;
+    margin:0px 0 0;
+    padding:0;
+    float:left;
+    position: relative;
+    top: 20px;
+}
+.main_menu ul li{
+    list-style:none;
+    margin:0;
+    padding:0 15px;
+    float:left;
+}
+.main_menu ul li a{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 23px;
+    box-sizing: border-box;
+    font-family: 'cuyabra',sans-serif;
+    text-transform: uppercase;}
+    .main_menu ul li a:hover{color: #eecf23;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+    text-decoration: none !important;
+    outline: none;
+    border-bottom: 2px solid #eecf23;}
+    .main_menu ul li.active a{color: #eecf23;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px solid #eecf23;
+}
+
+
+.main_menu ul li:last-child {
+	border: 1px solid #eecf23;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: -1px;
+	margin-left: 15px;
+}
+.main_menu ul li:last-child a{
+    line-height: 24px;
+}
+.main_menu ul li:last-child a:hover {
+	border: none;
+}
+.main_menu ul li.active:last-child a {
+	border: none;
+}
+
+
+
+.mobile_menu {
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0px;
+    width: 0px; 
+    padding: 0px;
+    margin: 0;
+}
+@media (max-width: 768px) {
+.mobile_menu{
+    visibility: visible;
+    height: auto;
+    line-height: normal;
+    font-size: 15px;
+    width: auto;
+    margin-top: 0px;
+    float: right;
+ }
+.main_menu
+{
+    float:right;
+    margin:0;
+    padding:0;
+    max-width:0;
+    width:0;
+    visibility:hidden;
+    font-size:0;
+    line-height:0;
+    height:0
+}
+.mobile_menu span{
+    font-size:30px;
+    cursor:pointer;
+    float:right;
+    width:auto;
+    color: #ffea00;
+}
+.mobile_menu .logo{
+    float:left;
+    margin:0;
+    padding:0;
+    text-align:left;
+    max-width:280px
+}
+.sidenav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color:#FFF;
+    overflow-x:hidden;
+    transition:.5s;
+    padding-top:60px
+}
+.sidenav ul{
+    float:left;
+    margin:0;
+    padding:0 0 0 15%;
+    list-style-type:none;
+    width:100%
+}
+.sidenav ul li{
+    float:left;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    width:100%
+}
+.sidenav ul li a{
+    position:relative;
+    display:block;
+    padding:5px 0;
+    margin:0;
+    font-size:15px;
+    line-height:35px;
+    color:#565050;
+    cursor:pointer;
+    text-transform:uppercase;
+    font-weight:500;
+    font-family:'Montserrat',sans-serif;
+    letter-spacing:.23em;
+    text-decoration:none;
+    outline:none
+}
+.sidenav a:hover{
+    color:#f7775e;
+    text-decoration:none;
+    outline:none
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 20px;right: 20px;
+    font-size: 36px;
+    margin-left: 0;
+    color: #f7775e;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;}
+}	
+/* End Game District Header*/
+
 /* header */
-header{
+/* header{
     box-sizing: border-box;
     background: #181818 !important;
     width: 100%;
@@ -10,7 +290,7 @@ header{
     padding: 20px 0;
     position: relative;
     z-index: 9999;
-    /* display: inline; */
+   
     box-sizing: border-box;
 }
 header nav {
@@ -25,7 +305,7 @@ nav .container{
     width: 100%;
     max-width: 1230px;
     overflow: hidden;
-    /* display: inline; */
+   
 }
 nav .container .logo a img{
     float: left;
@@ -98,16 +378,17 @@ nav .container .menu .links .navbarnav .navItem .page:hover{
 
 nav .container .icon {
     cursor: pointer;
-}
+} */
 
-nav .container .icon span{
+/* nav .container .icon span{
     background-color: #eecf23;
     margin-bottom: 4px;
     margin-right: 25px;
     height: 3px;
-    display: none; /* Add this line to ensure the spans behave as block elements */
-}
-
+    display: none;  */
+    /* Add this line to ensure the spans behave as block elements */
+/* } */
+/* 
 .show-mobile-menu{
     visibility: visible;
     height: auto;
@@ -198,7 +479,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
     nav .container .menu{
         display: none;
     }
-}
+}  */
 /* end header */
 
 /* start home section game section */
@@ -814,7 +1095,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      background-size: contain;
  }
  .about_section_inner h1{
-     font-family: 'Poppins-Bold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: bold;
      font-size: 36px;
      color: #000000;
      float: left;
@@ -826,7 +1108,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      line-height: 36px;
  }
  .about_section_inner p{
-     font-family: 'Poppins-Regular';
+     font-family: 'Poppins',sans-serif;
      font-size: 14px;
      color: #000000;
      float: left;
@@ -850,7 +1132,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      width: 100%;
      text-align: center;
      color: #11110d;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 36px;
  }
  .dreams h5 span{
@@ -858,7 +1141,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .dreams p{
      color: #000;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 13px;
      float: left;
      margin: 0 0 0 0;
@@ -906,7 +1190,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .our_vision_details h3{
      color: #000;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
      font-size: 36px;
      float: left;
      width: 100%;
@@ -915,7 +1199,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .our_vision_details h4{
      color: #000;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
      font-size: 18px;
      float: left;
      width: 100%;
@@ -924,13 +1208,13 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .our_vision_details p{
      color: #000;
- font-family: 'Poppins-Medium';
- font-size: 14px;
- float: left;
- width: 100%;
- margin: 0;
- padding: 0;
- line-height: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
  }
  .our_vision_details p span{
      color: #000;
@@ -968,7 +1252,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      float: left;
  }
  .whats_deives h1{
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 36px;
      color: #000000;
      margin: 0 0 0px 0;
@@ -979,13 +1264,14 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .whats_deives h1.white{
      color: #FFF;
- position: relative;
- margin: -51px 0 0 0;
- z-index: 8;
+     position: relative;
+     margin: -51px 0 0 0;
+     z-index: 8;
  }
  
  .whats_deives p{
-     font-family: 'Poppins-Medium';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 500;
      font-size: 15px;
      color: #000000;
      margin: 0 0 30px 0;
@@ -996,10 +1282,10 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .whatsdeives_area{
      float: left;
- margin: 40px 0 20px 0;
- padding: 0 8%;
- width: 100%;
- max-width: 100%;
+    margin: 40px 0 20px 0;
+    padding: 0 8%;
+    width: 100%;
+    max-width: 100%;
  }
  .whatsdeives_1{
      float: left;
@@ -1027,7 +1313,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      margin: 0 0 0 0;
      padding: 0 0 0 10px;
      width: 100%;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 36px;
      color: #000000;
  }
@@ -1036,7 +1323,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      margin: 0 0 10px 0;
      padding: 0 0 0 10px;
      width: 100%;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 17px;
      color: #000000;
  }
@@ -1047,7 +1335,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      width: 100%;
      color: #191919;
      font-size: 12px;
-     font-family: 'Poppins-Medium';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 500;
  }
  
  .whatsdeives_3{
@@ -1078,7 +1367,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      padding: 0 5px 0 0px;
      width: 100%;
      text-align: right;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 36px;
      color: #000000;
  }
@@ -1087,7 +1377,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      margin: 0 0 10px 0;
      padding: 0 5px 0 0px;
      width: 100%;
-     font-family: 'Poppins-ExtraBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 900;
      font-size: 17px;
      color: #000000;
      text-align: right;
@@ -1099,7 +1390,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      width: 100%;
      color: #191919;
      font-size: 12px;
-     font-family: 'Poppins-Medium';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 500;
      text-align: right;
  }
  .about_section_4{
@@ -1246,7 +1538,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      background-size: cover;
  }
  .about_section_5 h1{
-         font-family: 'Poppins-SemiBold';
+     font-family: 'Poppins',sans-serif;
+     font-weight: 500;
      font-size: 30px;
      color: #FFFFFF;
      margin: 0 0 0 0;
@@ -1257,7 +1550,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .about_section_5 h1 a.start {
  background-color: #ffd200;
- font-family: 'Poppins-Bold';
+ font-family: 'Poppins',sans-serif;
+ font-weight: bold;
  font-size: 13px;
  color: #191919;
  text-decoration: none;
