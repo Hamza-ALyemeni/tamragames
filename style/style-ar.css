@@ -1,0 +1,12 @@
+.main_menu ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lang-button a{
+    font-family: 'Poppins',sans-serif;
+}
+
+.main_menu ul li a{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}

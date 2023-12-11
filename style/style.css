@@ -138,15 +138,19 @@ max-width: 100%;
     line-height: 23px;
     box-sizing: border-box;
     font-family: 'cuyabra',sans-serif;
-    text-transform: uppercase;}
-    .main_menu ul li a:hover{color: #eecf23;
+    text-transform: uppercase;
+}
+    .main_menu ul li a:hover{
+        color: #eecf23;
     -webkit-transition: color .2s ease-out;
     -moz-transition: color .2s ease-out;
     transition: color .2s ease-out;
     text-decoration: none !important;
     outline: none;
-    border-bottom: 2px solid #eecf23;}
-    .main_menu ul li.active a{color: #eecf23;
+    border-bottom: 2px solid #eecf23;
+}
+    .main_menu ul li.active a{
+        color: #eecf23;
     -webkit-transition: color .2s ease-out;
     -moz-transition: color .2s ease-out;
     transition: color .2s ease-out;
@@ -154,7 +158,6 @@ max-width: 100%;
     outline: none;
     border-bottom: 2px solid #eecf23;
 }
-
 
 .main_menu ul li:last-child {
 	border: 1px solid #eecf23;
@@ -165,6 +168,7 @@ max-width: 100%;
 	margin-top: -1px;
 	margin-left: 15px;
 }
+
 .main_menu ul li:last-child a{
     line-height: 24px;
 }
@@ -176,6 +180,19 @@ max-width: 100%;
 }
 
 
+.lang-button{
+    position: absolute;
+    top: 45px;
+    left: 1252px;
+}
+.lang-button a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.lang-button a:hover{
+    color: #ffea00;
+}
 
 .mobile_menu {
     visibility: hidden;
@@ -197,6 +214,11 @@ max-width: 100%;
     margin-top: 0px;
     float: right;
  }
+ .lang-button {
+    position: absolute;
+    top: 28px;
+    left: 200px;
+  }
 .main_menu
 {
     float:right;
@@ -277,7 +299,8 @@ max-width: 100%;
     margin-left: 0;
     color: #f7775e;
     font-weight: 500;
-    font-family: 'Montserrat',sans-serif;}
+    font-family: 'Montserrat',sans-serif;
+}
 }	
 /* End Game District Header*/
 
@@ -567,7 +590,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
     width: 29%;
     max-width: 100%;
 }
-/* 
+
 @media   (min-width: 320px) and (max-width: 480px){
     .game-icon-1{
         margin: 0 0px 0 0;
@@ -599,7 +622,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
     .game-icon-5{
        width: 100%;
     }
-} */
+}
 /* end home section game section */
 /* home section publish  */
 
@@ -2857,33 +2880,254 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  
  
  
- .contact_section_1{float:left;margin:0;padding:120px 0 20px;width:100%;background-image:url(../imgs/contact_bg.jpg);background-repeat:no-repeat;background-position:top left;background-size:100%;background-color:#f7f7f7}
- .contact_section_1 p{color:#000;font-family:'Poppins-Bold';font-size:18px;margin:0;padding:0;float:left;width:100%;text-align:left;clear:both;line-height:22px}
- .contact_section_1 h1{color:#000;font-family:'Poppins-Bold';font-size:72px;margin:0 0 20px;padding:0;float:left;width:100%;text-align:left;clear:both;line-height:58px}
- .social_icons_contact{float:left;margin:130px 0 75px!important;padding:0;width:100%;clear:both}
- .social_icons_contact a{text-decoration:none;outline:none;margin-right:20px}
- .social_icons_contact a img{max-width:40px}
- .contact_section_2{float:left;margin:0;padding:50px 0;width:100%;clear:both;background-color:#f7f7f7}
- .contact_section_2_left{float:left;margin:30px 0 0;padding:0;width:100%}
- .contact_section_2_right{float:left;margin:0;padding:0;width:100%}
- .contact_section_2_left h3{color:#181818;font-family:'Poppins-Bold';font-size:42px;margin:0 0 50px;padding:0;float:left;width:100%;text-align:left;clear:both}
- .contact_section_2_left h5{color:#181818;font-family:'Poppins-Bold';font-size:21px;margin:-4px 0 0;padding:0 0 0 35px;float:left;width:100%;text-align:left;clear:both;background-image:url(../imgs/bullet.png);background-repeat:no-repeat;background-position:0 4px}
- .contact_section_2_left p{color:#181818;font-family:'Poppins-Regular';font-size:15px;margin:-7px 0 0;padding:21px 0 25px 35px;float:left;width:100%;text-align:left;clear:both;line-height:20px;background-image:url(../imgs/contact_p_bg.jpg);background-repeat:repeat-y;background-position:8px 0}
- .contact_section_2_left p:last-child{background:none}
- .contact_form_partners{float:left;margin:0;padding:15px 25px;width:100%;border-radius:10px;box-shadow:0 0 6px 0 #e2e2e2;background-color:#f7f7f7;opacity:.9}
- .contact_form_partners h4{color:#242424;font-family:'Poppins-Regular';font-size:24px;margin:0 0 15px;padding:0;float:left;width:100%;text-align:left;font-weight:700;letter-spacing:0;text-transform:capitalize;clear:both;line-height:30px}
- .mail_icon{float:left;margin:0 0 50px;padding:0;width:auto}
- .contact_form_partners input.wpcf7-text,.contact_form_partners input.wpcf7-email,.contact_form_partners select.wpcf7-select{float:left;margin:0 2% 20px;padding:6px 10px;width:46%;border:1px solid #b7b7b7;border-radius:5px;color:#242424!important;font-family:'Poppins-Regular';font-size:14px;opacity:100}
- .contact_form_partners ::placeholder{color:#242424!important;opacity:1}
- .contact_form_partners :-ms-input-placeholder{color:#242424!important}
- .contact_form_partners ::-ms-input-placeholder{color:#242424!important}
- .contact_form_partners textarea.wpcf7-textarea{color:#242424!important;font-family:'Poppins-Regular';font-size:15px;margin:0 2% 10px;padding:6px 10px;width:96%;resize:none;height:190px;border:1px solid #b7b7b7;border-radius:5px;}
- .contact_form_partners input.wpcf7-submit{color:#242424!important;font-family:'Poppins-Regular';font-size:15px;margin:0 auto;padding:8px 40px;width:96%;height:auto;background-color:#ffea00;border:none;float:none;display:block;font-weight:700;text-transform:uppercase;letter-spacing:2px}
- .contact_form_partners .file{background-image:url(../imgs/message.png);background-repeat:no-repeat;background-position:10px 5px;float:left;margin:0 2% 20px;padding:0 10px 0 90px;width:96%;border:1px solid #b7b7b7;border-radius:5px;background-color:#fff;position:relative}
- .contact_form_partners input.wpcf7-file{float:left;margin:8px 0;padding:20px 0;width:100%;border:1px dashed #b7b7b7;color:#242424!important;font-family:'Poppins-Regular';font-size:0;opacity:100;text-indent:-100px}
- .contact_form_partners .file label{color:#878787!important;font-family:'Poppins-Regular';font-size:14px;font-weight:400;text-align:center;width:auto;position:absolute;margin:0 auto;display:block;z-index:999;left:46%;top:23px}
- .contact_form_partners p{color:#181818;font-family:'Poppins-Regular';font-size:15px;margin:0 0 10px;padding:0;float:left;width:100%;text-align:left;clear:both}
- .contact_form_partners p b{margin:0 0 0 15px;}
+ .contact_section_1{
+    float:left;
+    margin:0;
+    padding:120px 0 20px;
+    width:100%;
+    background-image:url(../imgs/contact_bg.jpg);
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-size:100%;
+    background-color:#f7f7f7
+}
+ .contact_section_1 p{
+    color:#000;
+    font-family:'Poppins',sans-serif;
+    font-size:18px;
+    margin:0;
+    padding:0;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both;
+    line-height:22px
+}
+ .contact_section_1 h1{
+    color:#000;
+    font-family:'Poppins',sans-serif;
+    font-weight: 900;
+    font-size:72px;
+    margin:0 0 20px;
+    padding:0;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both;
+    line-height:58px
+}
+ .social_icons_contact{
+    float:left;
+    margin:130px 0 75px!important;
+    padding:0;
+    width:100%;
+    clear:both
+}
+ .social_icons_contact a{
+    text-decoration:none;
+    outline:none;
+    margin-right:20px
+}
+ .social_icons_contact a img{
+    max-width:40px
+}
+ .contact_section_2{
+    float:left;
+    margin:0;
+    padding:50px 0;
+    width:100%;
+    clear:both;
+    background-color:#f7f7f7
+}
+ .contact_section_2_left{
+    float:left;
+    margin:30px 0 0;
+    padding:0;
+    width:100%;
+}
+ .contact_section_2_right{
+    float:left;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+ .contact_section_2_left h3{
+    color:#181818;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    font-size:42px;
+    margin:0 0 50px;
+    padding:0;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both
+}
+ .contact_section_2_left h5{
+    color:#181818;
+    font-family:'Poppins',sans-serif;
+    font-weight: 700;
+    font-size:21px;
+    margin:-4px 0 0;
+    padding:0 0 0 35px;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both;
+    background-image:url(../imgs/bullet.png);
+    background-repeat:no-repeat;
+    background-position:0 4px
+}
+ .contact_section_2_left p{
+    color:#181818;
+    font-family:'Poppins',sans-serif;
+    font-size:15px
+    ;margin:-7px 0 0;
+    padding:21px 0 25px 35px;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both;
+    line-height:20px;
+    background-image:url(../imgs/contact_p_bg.jpg);
+    background-repeat:repeat-y;
+    background-position:8px 0
+}
+ .contact_section_2_left p:last-child{
+    background:none
+}
+ .contact_form_partners{
+    float:left;
+    margin:0;
+    padding:15px 25px;
+    width:100%;
+    border-radius:10px;
+    box-shadow:0 0 6px 0 #e2e2e2;
+    background-color:#f7f7f7;
+    opacity:.9
+}
+ .contact_form_partners h4{
+    color:#242424;
+    font-family:'Poppins',sans-serif;
+    font-size:24px;
+    margin:0 0 15px;
+    padding:0;
+    float:left;
+    width:100%;
+    text-align:left;
+    font-weight:700;
+    letter-spacing:0;
+    text-transform:capitalize;
+    clear:both;
+    line-height:30px
+}
+ .mail_icon{
+    float:left;
+    margin:0 0 50px;
+    padding:0;
+    width:auto
+}
+ .contact_form_partners input.wpcf7-text,.contact_form_partners input.wpcf7-email,.contact_form_partners select.wpcf7-select{
+    float:left;
+    margin:0 2% 20px;
+    padding:6px 10px;
+    width:46%;
+    border:1px solid #b7b7b7;
+    border-radius:5px;
+    color:#242424!important;
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    opacity:100
+}
+ .contact_form_partners ::placeholder{
+    color:#242424!important;
+    opacity:1
+}
+ .contact_form_partners :-ms-input-placeholder{
+    color:#242424!important
+}
+ .contact_form_partners ::-ms-input-placeholder{
+    color:#242424!important
+}
+ .contact_form_partners textarea.wpcf7-textarea{
+    color:#242424!important;
+    font-family:'Poppins',sans-serif;
+    font-size:15px;
+    margin:0 2% 10px;
+    padding:6px 10px;
+    width:96%;
+    resize:none;
+    height:190px;
+    border:1px solid #b7b7b7;
+    border-radius:5px;
+}
+ .contact_form_partners input.wpcf7-submit{
+    color:#242424!important;
+    font-family:'Poppins',sans-serif;
+    font-size:15px;
+    margin:0 auto;
+    padding:8px 40px;
+    width:96%;
+    height:auto;
+    background-color:#ffea00;
+    border:none;
+    float:none;
+    display:block;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px
+}
+ .contact_form_partners .file{
+    background-image:url(../imgs/message.png);
+    background-repeat:no-repeat;
+    background-position:10px 5px;float:left;
+    margin:0 2% 20px;
+    padding:0 10px 0 90px;
+    width:96%;
+    border:1px solid #b7b7b7;
+    border-radius:5px;
+    background-color:#fff;
+    position:relative
+}
+ .contact_form_partners input.wpcf7-file{
+    float:left;
+    margin:8px 0;
+    padding:20px 0;
+    width:100%;
+    border:1px dashed #b7b7b7;
+    color:#242424!important;
+    font-family:'Poppins',sans-serif;
+    font-size:0;
+    opacity:100;
+    text-indent:-100px
+}
+ .contact_form_partners .file label{
+    color:#878787!important;
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    font-weight:400;
+    text-align:center;
+    width:auto;
+    position:absolute;
+    margin:0 auto;
+    display:block;
+    z-index:999;
+    left:46%;
+    top:23px}
+ .contact_form_partners p{
+    color:#181818;
+    font-family:'Poppins',sans-serif;
+    font-size:15px;
+    margin:0 0 10px;
+    padding:0;
+    float:left;
+    width:100%;
+    text-align:left;
+    clear:both
+}
+ .contact_form_partners p b{
+    margin:0 0 0 15px;
+}
  
  
  
@@ -3401,27 +3645,27 @@ nav .container .show-mobile-menu .sidenav ul li .active{
    background-color: #FFF;
  }
  .jobs_breadcrumb{
-       margin: 20px 0 30px 0;
- padding: 0 0;
- float: left;
- width: 100%;  
+    margin: 20px 0 30px 0;
+    padding: 0 0;
+    float: left;
+    width: 100%;  
  }
  .jobs_breadcrumb ul{
        margin: 0px 0 0px 0;
- padding: 0 0;
- float: left;
- width: 100%;  
- list-style: none;
+    padding: 0 0;
+    float: left;
+    width: 100%;  
+    list-style: none;
  }
  .jobs_breadcrumb ul li{
        margin: 0px 10px 0px 0;
- padding: 0 0;
- float: left;
-   color:#242424 !important;
- font-family: 'Poppins',sans-serif;
- font-weight: 500;
- font-size: 13px;
- list-style: none;
+    padding: 0 0;
+    float: left;
+    color:#242424 !important;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    list-style: none;
  }
  .jobs_breadcrumb ul li a{
        margin: 0px 0 0px 0;
@@ -3479,30 +3723,28 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      font-family: 'Poppins',sans-serif;
      font-size: 14px;
      margin: 0px 0 0px 0;
- padding: 0 0;
- float: left;
- width: 100%;
- }
+     padding: 0 0;
+     float: left;
+     width: 100%;
+ } 
  
  .jobs_arae p a:hover{
-  color: #242424 !important;
- text-decoration: none;
- outline: none;
+    color: #242424 !important;
+    text-decoration: none;
+    outline: none;
  }
  
  
  .jobs_arae a.applybtn {
-     color: 
- #242424 !important;
- font-family: 'Poppins',sans-serif;
- font-weight: 500;
- font-size: 15px;
- margin: 20px 0 20px 0;
- padding: 8px 25px;
- width: auto;
- height: auto;
- background-color:
-     #ffea00;
+     color: #242424 !important;
+     font-family: 'Poppins',sans-serif;
+     font-weight: 500;
+     font-size: 15px;
+     margin: 20px 0 20px 0;
+     padding: 8px 25px;
+     width: auto;
+     height: auto;
+     background-color:#ffea00;
      border: none;
      float: left;
      display: block;
@@ -3511,9 +3753,9 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  
  .jobs_left_area{
       margin: 0px 0 0px 0;
- padding: 0 0;
- float: left;
- width: 100%;  
+      padding: 0 0;
+      float: left;
+      width: 100%;  
  }
  
  .jobs_left_area h3{
@@ -3529,16 +3771,16 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      clear: both;
  }
  .jobs_left_area  p{
-   color:#242424 !important;
- font-family: 'Poppins',sans-serif;
- font-size: 14px;
- margin: 0px 0 12px 0;
- padding: 0 0 12px 5%;
- float: left;
- width: 95%;
- background-image: url("../imgs/jobs_info_bg.jpg");
- background-repeat: repeat-x;
- background-position: bottom left;
+    color:#242424 !important;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    margin: 0px 0 12px 0;
+    padding: 0 0 12px 5%;
+    float: left;
+    width: 95%;
+    background-image: url("../imgs/jobs_info_bg.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom left;
  }
  .see_more_jobs{
      margin: 0px 0 12px 0;
@@ -3548,15 +3790,15 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  
  .see_more_jobs a{
- color: #ffea00 !important;
- font-family: 'Poppins',sans-serif;
- font-weight: 700;
- font-size: 17px;
- margin: 30px 0 10px 0;
- padding: 8px 25px;
- width: 100%;
- height: auto;
- background-color:#191919;
+    color: #ffea00 !important;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 30px 0 10px 0;
+    padding: 8px 25px;
+    width: 100%;
+    height: auto;
+    background-color:#191919;
      border: none;
      float: left;
      display: block;
@@ -3571,7 +3813,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .see_more_jobs span{
        color:#242424 !important;
- font-family: 'Poppins-Regular';
+ font-family: 'Poppins',sans-serif;
  font-size: 11px;
  margin: 0px 0 12px 0;
  padding: 0 0 12px 0;
@@ -3580,18 +3822,18 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .jobs_details_area h3{
      color: #191919 !important;
- font-family: 'Poppins-Bold';
- font-size: 19px;
- margin: 0 0 30px 0;
- padding: 0;
- width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    width: 100%;
      float: left;
  }
  
  .jobs_details_area  p{
- color:
- #242424 !important;
- font-family: 'Poppins-Regular';
+ color:#242424 !important;
+ font-family: 'Poppins',sans-serif;
  font-size: 14px;
  margin: 0 0 15px 0;
  padding: 0 0 0 0;
@@ -3600,41 +3842,42 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .jobs_details_area  ul{
      margin: 0 0 15px 0;
- padding: 0 0 0 0;
- float: left;
- width: 100%;
+    padding: 0 0 0 0;
+    float: left;
+    width: 100%;
  }
  .jobs_details_area  ul li{
- margin: 0 0 15px 15px;
- padding: 0 0 0 0;
- float: left;
- width: 100%;
- color:#242424 !important;
- font-family: 'Poppins-Regular';
- font-size: 14px;
+    margin: 0 0 15px 15px;
+    padding: 0 0 0 0;
+    float: left;
+    width: 100%;
+    color:#242424 !important;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
  }
  
  
  .jobs_details_area a.applybtn {
-  color:#242424 !important;
- font-family: 'Poppins-Bold';
- font-size: 15px;
- margin: 20px 0 20px 0;
- padding: 8px 25px;
- width: 100%;
- height: auto;
- background-color:#ffea00;
- border: none;
- float: left;
- display: block;
- border-radius: 4px;
- text-align: center;
+    color:#242424 !important;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+    padding: 8px 25px;
+    width: 100%;
+    height: auto;
+    background-color:#ffea00;
+    border: none;
+    float: left;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
  }
  .jobs_details_area a.applybtn:hover{
- color: #ffea00 !important;
- background-color:#242424;
- text-decoration: none;
- outline: none;
+    color: #ffea00 !important;
+    background-color:#242424;
+    text-decoration: none;
+    outline: none;
  }
  .aligncenter {
      display: block;
@@ -3649,20 +3892,22 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      width: 100%; 
  }
  h3.application_title{
- color:#191919;
- font-family: 'Poppins-Bold';
- font-size: 29px;
- margin: 0px 0 20px 0;
- padding: 0 0;
- float: left;
- width: 100%;
- text-align: left;
- clear: both;
+    color:#191919;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    margin: 0px 0 20px 0;
+    padding: 0 0;
+    float: left;
+    width: 100%;
+    text-align: left;
+    clear: both;
  }
  
  .application_form h3{
  color:#191919;
- font-family: 'Poppins-Bold';
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
  font-size: 18px;
  margin: 10px 0 0px 0;
  padding: 0 0;
@@ -3673,15 +3918,16 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  
  .application_form p{
- color:#191919;
- font-family: 'Poppins-Medium';
- font-size: 13px;
- margin: 0px 0 0px 0;
- padding: 0 0;
- float: left;
- width: 100%;
- text-align: left;
- clear: both;
+    color:#191919;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0px 0 0px 0;
+    padding: 0 0;
+    float: left;
+    width: 100%;
+    text-align: left;
+    clear: both;
  }
  
  .application_form input.wpcf7-text {
@@ -3689,12 +3935,10 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      margin: 20px 0 0px 0;
      padding: 6px 10px;
      width: 100%;
-     border: 1px solid 
- #b7b7b7;
- border-radius: 5px;
- color:
-     #242424 !important;
-     font-family: 'Poppins-Regular';
+     border: 1px solid #b7b7b7;
+     border-radius: 5px;
+     color:#242424 !important;
+     font-family: 'Poppins',sans-serif;
      font-size: 14px;
      opacity: 100;
  }
@@ -3704,19 +3948,17 @@ nav .container .show-mobile-menu .sidenav ul li .active{
      margin: 20px 0 0px 0;
      padding: 6px 10px;
      width: 100%;
-     border: 1px solid 
- #b7b7b7;
- border-radius: 5px;
- color:
-     #242424 !important;
-     font-family: 'Poppins-Regular';
+     border: 1px solid #b7b7b7;
+     border-radius: 5px;
+     color:#242424 !important;
+     font-family: 'Poppins',sans-serif;
      font-size: 14px;
      opacity: 100;
      background-color: #FFFFFF;
  }
  .application_form select.wpcf7-select option{
      color:#242424 !important;
-     font-family: 'Poppins-Regular';
+     font-family: 'Poppins',sans-serif;
      font-size: 14px;
  }
  
@@ -3740,7 +3982,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  width: 100%;
  border: 1px dashed #b7b7b7;
  color: #242424 !important;
- font-family: 'Poppins-Regular';
+ font-family: 'Poppins',sans-serif;
  font-size: 0;
  opacity: 100;
  text-indent: -100px;
@@ -3748,7 +3990,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .application_form .file label{
      color: #878787 !important;
- font-family: 'Poppins-Regular';
+ font-family: 'Poppins',sans-serif;
  font-size: 14px;
  font-weight: normal;
  text-align: center;
@@ -3772,7 +4014,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  border-radius: 5px;
  color:
  #242424 !important;
- font-family: 'Poppins-Regular';
+ font-family: 'Poppins',sans-serif;
  font-size: 14px;
  opacity: 100;
  max-height: 140px;
@@ -3796,7 +4038,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  #b7b7b7;
  border-radius: 5px;
  color: #242424 !important;
-     font-family: 'Poppins-Regular';
+     font-family: 'Poppins',sans-serif;
      font-size: 14px;
      opacity: 100;
  }
@@ -3980,7 +4222,7 @@ nav .container .show-mobile-menu .sidenav ul li .active{
     .solutions_section_1 .solutions_right_icon {margin: 30px 0 0 0;}
     .tabbar_top a {max-width: 24%;font-size: 11px;}
     .tabbar_top a img.arrow {margin: 0 0 0 4%;width: 14px;visibility: visible;}
-    
+    .jobs_career_section_2 .row div{display: flex; flex-direction: column; }
 }
 
 
