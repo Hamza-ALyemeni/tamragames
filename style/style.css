@@ -58,17 +58,18 @@ img{
  }
 .home_section_gamesicon .game_icon_1{
 	float: left;
-margin: 0 20px 0 0;
-padding: 0 0 0 0;
-width: 36% ;
-max-width:100% ;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    width: 36% ;
+    max-width:100% ;
+    border-radius: 10px;
 }
 .home_section_gamesicon .game_icon_2{
-float: left;
-margin: 10px 0 0 0;
-padding: 0 0 0 0;
-width: 62% ;
-max-width:100% ;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    width: 62% ;
+    max-width:100% ;
 }
 .home_section_gamesicon .game_icon_3{
 	    float: left;
@@ -179,11 +180,10 @@ max-width: 100%;
 	border: none;
 }
 
-
 .lang-button{
     position: absolute;
-    top: 45px;
-    left: 1252px;
+    top: 49px;
+    left: 1441px;
 }
 .lang-button a{
     color: white;
@@ -215,12 +215,9 @@ max-width: 100%;
     float: right;
  }
  .lang-button {
-    position: absolute;
-    top: 28px;
-    left: 200px;
+    display: none;
   }
-.main_menu
-{
+.main_menu{
     float:right;
     margin:0;
     padding:0;

@@ -1,12 +1,45 @@
 .main_menu ul{
     display: flex;
     flex-direction: row-reverse;
+    
+}
+.lang-button{
+    position: absolute;
+    top: 48px;
+    left: 41px;
 }
 
 .lang-button a{
     font-family: 'Poppins',sans-serif;
+    
 }
 
 .main_menu ul li a{
     font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+
+.sidenav ul li a{
+    letter-spacing: normal;
+    text-transform: none;
+}
+.logo{
+    float: right;
+    text-align: right;
+}
+
+.main_menu{
+    float: left;
+}
+
+.mobile_menu {
+    float: left;
+}
+
+.mobile_menu span{
+    float: left;
+}
+
+.mobile_menu .logo{
+    float: right;
+    text-align: right;
 }
