@@ -1,3 +1,4 @@
+/* start header */
 .main_menu ul{
     display: flex;
     flex-direction: row-reverse;
@@ -6,16 +7,12 @@
 .lang-button{
     position: absolute;
     top: 48px;
-    left: 41px;
+    left: 34px;
 }
 
 .lang-button a{
     font-family: 'Poppins',sans-serif;
     
-}
-
-.main_menu ul li a{
-    font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 
 .sidenav ul li a{
@@ -43,3 +40,31 @@
     float: right;
     text-align: right;
 }
+
+/* end header */
+/* start fonts */
+.main_menu ul li a ,
+.home_section_publish h3 ,
+.home_section_publish h3 span,
+.home_section_publish p ,
+.services_publish h4 ,
+.home_our_journey p ,
+.home_our_journey .trending_mobile_games span ,
+.home_our_journey .trending_mobile_games ,
+.home_our_journey h1,
+.journey_plus h5 ,
+.journey_plus p ,
+.learn_morearea a.learn_more ,
+.home_best_clan h1 ,
+.home_best_clan p ,
+.home_best_clan a.learn_more ,
+.footer .widget_title ,
+.footer p ,
+.footer p a ,
+.copy_right ,
+.footer ul.menu li a
+{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+
+/* end fonts */
