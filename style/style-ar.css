@@ -128,6 +128,8 @@
 .games_services_detailsr h3 ,
 .games_services_detailsr p ,
 .publishing_section_4 h1 ,
+.side_space2 h3 ,
+.side_space2 p ,
 .looking_serving h3 ,
 .looking_serving p ,
 .publishing_section_5 h1 ,
@@ -203,3 +205,16 @@
     text-align: right;
 }
 /* end solutions */
+/* start publishing */
+.publishing_section_1 h1 ,
+.publishing_section_1 p ,
+.publishing_section_1 a ,
+.publishing_section_2 h1 ,
+.publishing_section_2 p
+{
+     text-align:right;
+}
+
+
+
+/* end publishing */
