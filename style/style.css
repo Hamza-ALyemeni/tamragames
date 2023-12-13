@@ -159,7 +159,7 @@ max-width: 100%;
     outline: none;
     border-bottom: 2px solid #eecf23;
 }
-
+/* 
 .main_menu ul li:last-child {
 	border: 1px solid #eecf23;
 	-moz-border-radius: 3px;
@@ -168,8 +168,17 @@ max-width: 100%;
 	border-radius: 3px;
 	margin-top: -1px;
 	margin-left: 15px;
-}
+} */
 
+.main_menu ul .publishing-button{
+    border: 1px solid #eecf23;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: -1px;
+	margin-left: 15px;
+}
 .main_menu ul li:last-child a{
     line-height: 24px;
 }
@@ -2097,11 +2106,11 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  
  .solutions_section_4 ul{
- float: left;
- margin: 0px 0 0px 0px;
- padding: 0px 0 0px 0;
- width: 100%;
- list-style: none;
+    float: left;
+    margin: 0px 0 0px 0px;
+    padding: 0px 0 0px 0;
+    width: 100%;
+    list-style: none;
  }
  .solutions_section_4 ul li{
     font-family: 'Poppins',sans-serif;
@@ -3111,7 +3120,8 @@ nav .container .show-mobile-menu .sidenav ul li .active{
     display:block;
     z-index:999;
     left:46%;
-    top:23px}
+    top:23px
+}
  .contact_form_partners p{
     color:#181818;
     font-family:'Poppins',sans-serif;
@@ -3490,9 +3500,9 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  
  .text_4tharea{
      float: left;
- margin: 0px 0 0 0;
- padding: 15% 50% 15% 8%;
- width: 100%
+    margin: 0px 0 0 0;
+    padding: 15% 50% 15% 8%;
+    width: 100%
  }
  .text_4tharea h4{
      color: #161616;
@@ -3667,12 +3677,12 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .jobs_breadcrumb ul li a{
        margin: 0px 0 0px 0;
- padding: 0 0;
- float: left;
-  color:#242424 !important;
- font-family: 'Poppins',sans-serif;
- font-weight: 500;
- font-size: 13px;
+        padding: 0 0;
+        float: left;
+        color:#242424 !important;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 500;
+        font-size: 13px;
  }
  .jobs_arae{
   margin: 0px 0 0px 0;
@@ -3811,12 +3821,12 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  .see_more_jobs span{
        color:#242424 !important;
- font-family: 'Poppins',sans-serif;
- font-size: 11px;
- margin: 0px 0 12px 0;
- padding: 0 0 12px 0;
- float: left;
- width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    margin: 0px 0 12px 0;
+    padding: 0 0 12px 0;
+    float: left;
+    width: 100%;
  }
  .jobs_details_area h3{
      color: #191919 !important;
@@ -3830,13 +3840,13 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  
  .jobs_details_area  p{
- color:#242424 !important;
- font-family: 'Poppins',sans-serif;
- font-size: 14px;
- margin: 0 0 15px 0;
- padding: 0 0 0 0;
- float: left;
- width: 100%;
+    color:#242424 !important;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 0;
+    float: left;
+    width: 100%;
  }
  .jobs_details_area  ul{
      margin: 0 0 15px 0;
@@ -3903,16 +3913,16 @@ nav .container .show-mobile-menu .sidenav ul li .active{
  }
  
  .application_form h3{
- color:#191919;
- font-family: 'Poppins', sans-serif;
- font-weight: 700;
- font-size: 18px;
- margin: 10px 0 0px 0;
- padding: 0 0;
- float: left;
- width: 100%;
- text-align: left;
- clear: both;
+    color:#191919;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 0px 0;
+    padding: 0 0;
+    float: left;
+    width: 100%;
+    text-align: left;
+    clear: both;
  }
  
  .application_form p{
